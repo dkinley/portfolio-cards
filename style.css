@@ -1,3 +1,22 @@
 .btn-danger {
     background-color: orange;
 }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15px;
+    transition: 1s;
+    border-radius: 5px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
