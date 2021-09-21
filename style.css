@@ -1,13 +1,14 @@
 h1 {
-    font-size: 1.25em;
-    border-bottom: 2px solid rgb(160, 33, 55);
-    border-right: 2px solid rgb(126, 0, 21);
+    font-size: 1.5em;
+    border-bottom: 2px solid rgb(72, 93, 159);
+    border-right: 2px solid rgb(118, 171, 228);
     border-radius: 5px;
     width: 500px;
     text-align: center;
-    box-shadow: 2px 2px 3px #888888;
+    box-shadow: 1px 1px 2px #888888;
     margin-top: 10px;
     margin-left: 2px;
+    padding: 10px;
 }
 
 .btn-danger {
@@ -18,7 +19,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 2em;
+    margin: 1em;
     padding: .1em;
 }
 
@@ -38,6 +39,7 @@ h1 {
     border-radius: 5px;
     width: 3em;
     box-sizing: border-box;
+    box-shadow: 1px 1px 2px #888888;
 }
 
 .card:hover {
@@ -54,3 +56,32 @@ h1 {
     height: 275px;
     width: 275px;
 }
+
+.icon {
+    height: 3em;
+}
+
+.icon-header {
+    height: 1.5em;
+}
+
+.list-group-item {
+
+}
+
+.btn {
+    font-weight: 700;
+    border-radius: 50px;
+    width: 15em;
+    }
+    
+.btn-primary {
+    background-color:#888888;
+    border-color: #888888;
+    }
+    
+.btn-primary:hover {
+    background-color: #434140;
+    border-color: #434140;
+    border-width: 2px;
+    }
