@@ -1,5 +1,25 @@
+h1 {
+    font-size: 1.25em;
+    border-bottom: 2px solid rgb(160, 33, 55);
+    border-right: 2px solid rgb(126, 0, 21);
+    border-radius: 5px;
+    width: 500px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #888888;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+
 .btn-danger {
     background-color: orange;
+}
+
+.bio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2em;
+    padding: .1em;
 }
 
 .container {
@@ -12,11 +32,25 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 15px;
+    margin: 2em;
+    padding: .1em;
     transition: 1s;
     border-radius: 5px;
+    width: 3em;
+    box-sizing: border-box;
 }
 
 .card:hover {
     transform: scale(1.1);
+}
+
+.iframe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: .5em;
+    transition: 1s;
+    border-radius: 5px;
+    height: 275px;
+    width: 275px;
 }
