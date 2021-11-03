@@ -85,3 +85,47 @@ h1 {
     border-color: #434140;
     border-width: 2px;
     }
+
+/* START BLOG */
+
+.container-blog {
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/road-background.jpg);
+}
+
+.card-title-blog {
+    margin: 0em;
+    @import url('https://fonts.googleapis.com/css?family=Ubuntu');
+    margin-top: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: 3px 3px 20px #ff99cc,
+        -2px 1px 30px #ff99cc;
+
+}
+
+.card-blog {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2em;
+    padding: .1em;
+    transition: 1s;
+    border-radius: 5px;
+    
+}
+
+.card-blog:hover {
+    transform: scale(1.1);
+}
+
+.img-blog {
+    padding: .5em;
+    width: 15em;
+    }
